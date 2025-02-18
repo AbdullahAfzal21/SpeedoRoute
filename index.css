@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url(pics/Speedo-Bus-Routes-in-Lahore-Pakistan-Cover-13-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.7);
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.contant{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.contant h1{
+    color: white;
+}
+
+.formbox{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    color: black;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.formbox h3{
+
+    font-size: 28px;
+}
+.formbox p{
+
+    font-size: 20px;
+}
+form{
+    margin-top: 20px;
+}
+button{
+    background-color: #E41100;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px;
+}
+form label{
+font-size: 20px;
+font-weight: 700;
+}
+form select{
+width: 40%;
+padding: 10px;
+color: rgb(119, 119, 119);
+font-size: 16px;
+}
+
+.result{
+    width: 100%;
+    background-color: #E41100;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.result marquee p{
+    font-size: 20px;
+    margin: 20px;
+}

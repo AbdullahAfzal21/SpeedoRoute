@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedo Bus Routes in Lahore</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script> 
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="contant">
+                <center>
+                    <img src="pics/logo.png" alt="logo">
+                    <h1>Speedo Bus Routes in Lahore</h1>
+                </center>
+                <div class="formbox">
+                    <h3>Search for Bus</h3> 
+                    <p>Find the best route for your bus travel</p>
+                    <form id="busSearchForm" action="javascript:void(0);">
+                        <label for="busdata1">From:</label>
+                        <select id="busdata1">
+                            
+                        </select>
+                        <label for="busdata2" style="margin-left: 10px;">To:</label>
+                        <select id="busdata2">
+            
+                        </select>
+                        <br>
+                        <button type="submit" id="submitButton">Submit</button>
+                        <button type="reset" id="resetButton">Reset</button>
+                    </form>
+                </div>
+                <div class="result">
+                    <h2>Your route bus:</h2>
+                    <marquee id="resultParagraph" scrollamount="10" scrolldelay="50">
+                    
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
